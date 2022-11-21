@@ -85,7 +85,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
 ## Angular support
 
-Supports Angular 11 and old versions.
+Supports Angular 14
 
 ## Features and API
 
