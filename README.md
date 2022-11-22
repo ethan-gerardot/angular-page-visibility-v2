@@ -1,5 +1,9 @@
 # Angular Page Visibility
 
+## Angular support
+
+Supports Angular 14
+
 ## Getting started
 
 First, install it.
@@ -83,10 +87,6 @@ export class AppComponent implements OnInit, OnDestroy {
 }
 ```
 
-## Angular support
-
-Supports Angular 14
-
 ## Features and API
 
 - [@OnPageVisible](./wiki/on-page-visible.decorator.md)
@@ -105,6 +105,7 @@ Supports Angular 14
 License under the MIT License (MIT)
 
 Copyright © 2017-2020 [Olivier LIN-SI-CHENG](https://www.olivierlinsicheng.com)
+Copyright © 2022 Ethan Gerardot
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
