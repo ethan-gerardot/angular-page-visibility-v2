@@ -9,6 +9,8 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to angular-page-visibility-app!');
+    expect(page.getParagraphText()).toEqual(
+      'Welcome to angular-page-visibility-v2-app!',
+    );
   });
 });

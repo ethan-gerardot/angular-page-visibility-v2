@@ -5,7 +5,7 @@
 First, install it.
 
 ```bash
-npm install --save angular-page-visibility@latest
+npm install --save angular-page-visibility-v2@latest
 ```
 
 Then, import it into your `@NgModule` :
@@ -14,7 +14,7 @@ Then, import it into your `@NgModule` :
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { AngularPageVisibilityModule } from 'angular-page-visibility';
+import { AngularPageVisibilityModule } from 'angular-page-visibility-v2';
 
 @NgModule({
   declarations: [AppComponent],
@@ -33,7 +33,7 @@ import {
   OnPageVisible, OnPageHidden,
   OnPageVisibilityChange,
   AngularPageVisibilityStateEnum,
-  OnPagePrerender, OnPageUnloaded} from 'angular-page-visibility';
+  OnPagePrerender, OnPageUnloaded} from 'angular-page-visibility-v2';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -98,7 +98,7 @@ Supports Angular 14
 
 ## For any questions, suggestions, or feature requests
 
-[Please file an issue](https://github.com/olivierlsc/angular-page-visibility/issues)!
+[Please file an issue](https://github.com/ethan-gerardot/angular-page-visibility-v2/issues)!
 
 ## License
 

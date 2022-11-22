@@ -1,16 +1,16 @@
 {
-  "name": "angular-page-visibility",
+  "name": "angular-page-visibility-v2",
   "version": "11.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olivierlsc/angular-page-visibility.git"
+    "url": "git+https://github.com/ethan-gerardot/angular-page-visibility-v2.git"
   },
   "author": "Olivier LIN-SI-CHENG",
   "bugs": {
-    "url": "https://github.com/olivierlsc/angular-page-visibility/issues"
+    "url": "https://github.com/ethan-gerardot/angular-page-visibility-v2/issues"
   },
-  "homepage": "https://github.com/olivierlsc/angular-page-visibility#readme",
+  "homepage": "https://github.com/ethan-gerardot/angular-page-visibility-v2#readme",
   "keywords": [
     "angular6",
     "angular7",

@@ -7,7 +7,7 @@ import {
   AngularPageVisibilityStateEnum,
   OnPagePrerender,
   OnPageUnloaded,
-} from 'angular-page-visibility';
+} from 'angular-page-visibility-v2';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -16,7 +16,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./app.component.less'],
 })
 export class AppComponent implements OnInit, OnDestroy {
-  title = 'angular-page-visibility-app';
+  title = 'angular-page-visibility-v2-app';
   private onPageVisibleSubscription: Subscription;
   private onPageHiddenSubscription: Subscription;
   private onPagePrerenderSubscription: Subscription;
