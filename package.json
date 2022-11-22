@@ -1,6 +1,6 @@
 {
   "name": "angular-page-visibility-v2-app",
-  "version": "11.0.0",
+  "version": "14.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -27,7 +27,6 @@
     "url": "https://github.com/ethan-gerardot/angular-page-visibility-v2/issues"
   },
   "homepage": "https://github.com//angular-page-visibility-v2#readme",
-  "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.11",
     "@angular/common": "^14.2.11",
