@@ -2,5 +2,5 @@ export enum AngularPageVisibilityStateEnum {
   VISIBLE,
   HIDDEN,
   PRERENDER,
-  UNLOADED
+  UNLOADED,
 }

@@ -5,6 +5,6 @@ import { AngularPageVisibilityService } from './angular-page-visibility.service'
   imports: [],
   declarations: [],
   providers: [AngularPageVisibilityService],
-  exports: []
+  exports: [],
 })
-export class AngularPageVisibilityModule { }
+export class AngularPageVisibilityModule {}
