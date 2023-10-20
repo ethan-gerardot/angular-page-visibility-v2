@@ -2,7 +2,7 @@
 
 ## Angular support
 
-Supports Angular 14
+Supports Angular 16
 
 ## Getting started
 
