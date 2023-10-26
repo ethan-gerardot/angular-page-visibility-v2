@@ -18,6 +18,7 @@
     "release:minor": "npm run release -- -t '' --release-as minor",
     "release:patch": "npm run release -- -t '' --release-as patch"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ethan-gerardot/angular-page-visibility-v2.git"
