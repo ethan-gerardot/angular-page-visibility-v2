@@ -55,18 +55,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-page-visibility-v2-app:build"
+            "buildTarget": "angular-page-visibility-v2-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-page-visibility-v2-app:build:production"
+              "buildTarget": "angular-page-visibility-v2-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-page-visibility-v2-app:build"
+            "buildTarget": "angular-page-visibility-v2-app:build"
           }
         },
         "test": {
