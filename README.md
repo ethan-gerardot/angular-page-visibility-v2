@@ -2,7 +2,7 @@
 
 ## Angular support
 
-Supports Angular 17
+Supports Angular 19
 
 ## Getting started
 
