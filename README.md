@@ -87,6 +87,13 @@ export class AppComponent implements OnInit, OnDestroy {
 }
 ```
 
+## Publishing
+
+1. Update version number in package.json and projects/angular-page-visibility-v2-lib/package.json
+2. `npm run build:lib`
+3. `cd dist/angular-page-visibility-v2`
+4. `npm publish`
+
 ## Features and API
 
 - [@OnPageVisible](./wiki/on-page-visible.decorator.md)
