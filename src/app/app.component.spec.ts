@@ -17,11 +17,11 @@ describe('AppComponent', () => {
     }),
   );
   it(
-    `should have as title 'angular-page-visibility-app'`,
+    `should have as title 'angular-page-visibility-v2-app'`,
     waitForAsync(() => {
       const fixture = TestBed.createComponent(AppComponent);
       const app = fixture.debugElement.componentInstance;
-      expect(app.title).toEqual('angular-page-visibility-app');
+      expect(app.title).toEqual('angular-page-visibility-v2-app');
     }),
   );
   it(
@@ -31,7 +31,7 @@ describe('AppComponent', () => {
       fixture.detectChanges();
       const compiled = fixture.debugElement.nativeElement;
       expect(compiled.querySelector('h1').textContent).toContain(
-        'Welcome to angular-page-visibility-app!',
+        'Welcome to angular-page-visibility-v2-app!',
       );
     }),
   );
